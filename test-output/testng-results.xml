@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-10T06:50:42 IST" name="Suite" finished-at="2023-12-10T06:50:42 IST" duration-ms="124">
+    <groups>
+      <group name="regression">
+        <method signature="GroupsSample.test3()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test3" class="com.testng.groups.GroupsSample"/>
+        <method signature="GroupsSample.test4()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test4" class="com.testng.groups.GroupsSample"/>
+        <method signature="GroupsSample.test5()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test5" class="com.testng.groups.GroupsSample"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupsSample.test2()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test2" class="com.testng.groups.GroupsSample"/>
+        <method signature="GroupsSample.test5()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test5" class="com.testng.groups.GroupsSample"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupsSample.test1()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test1" class="com.testng.groups.GroupsSample"/>
+        <method signature="GroupsSample.test2()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test2" class="com.testng.groups.GroupsSample"/>
+        <method signature="GroupsSample.test4()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" name="test4" class="com.testng.groups.GroupsSample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-10T06:50:42 IST" name="Test" finished-at="2023-12-10T06:50:42 IST" duration-ms="124">
+      <class name="com.testng.groups.GroupsSample">
+        <test-method signature="test1()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" started-at="2023-12-10T06:50:42 IST" name="test1" finished-at="2023-12-10T06:50:42 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" started-at="2023-12-10T06:50:42 IST" name="test2" finished-at="2023-12-10T06:50:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" started-at="2023-12-10T06:50:42 IST" name="test3" finished-at="2023-12-10T06:50:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" started-at="2023-12-10T06:50:42 IST" name="test4" finished-at="2023-12-10T06:50:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:com.testng.groups.GroupsSample@2c1b194a]" started-at="2023-12-10T06:50:42 IST" name="test5" finished-at="2023-12-10T06:50:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- com.testng.groups.GroupsSample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
